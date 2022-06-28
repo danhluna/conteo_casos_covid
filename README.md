@@ -6,7 +6,7 @@ En script hace el conteo de los casos covid diarios totales en toda la Repúblic
 
 Para la entrada  de los datos al script  se coloca el número de mes que se desea consultar a dos dígitos,  el año a cuatro dígitos, (El archivo comienza a contabilizar desde marzo del 2020),  y el nombre del archivo
 
-Los que funcionan para este scrip son tomados de la página [datos covid-19 conacyt](https://datos.covid-19.conacyt.mx/#DownZCSV) Casos diarios por Municipio
+Los datos que funcionan para este scrip son tomados de la página [datos covid-19 conacyt](https://datos.covid-19.conacyt.mx/#DownZCSV) Casos diarios por Municipio `.csv`
 
 >`bash procesa.sh [mes] [año] [archivo]`
 >
