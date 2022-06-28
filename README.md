@@ -19,3 +19,15 @@ Para el script en este caso solo se coloca el número de mes a los dígitos y el
 >`bash procesa_con_archivo.sh [mes] [año]`
 >
 >`bash procesa_con_archivo.sh 02 2020`
+
+## procesaMes.sh
+
+El script solo muestra el conteo total del mes de los casos de covid en todo el país, se realiza pruebas para ver el tiempo que tarda en procesar la información.
+
+>`time bash procesa.sh [mes] [año] [archivo]`
+>
+>`time bash procesa.sh 02 2020 Casos_Diarios_Municipio_Confirmados_20220621.csv`
+
+Obteniendo los siguientes resultados, donde se observa una mejora de ahorro de tiempo.
+
+![Image](IMG/img.jpg)
