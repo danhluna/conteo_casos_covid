@@ -38,8 +38,8 @@ for FECHA in $FECHAS
     do
     echo -n "* Fecha es $FECHA y los casos positivos son: "
     _suma_resultado $(_obtiene_campo $FECHA);
-    CASO=$(_suma_resultado $(_obtiene_campo $FECHA));
-    CASOS=$(( CASOS + CASO ))
+    CASO=$(_suma_resultado $(_obtiene_campo $FECHA)); # Variable que guarda el valor de los casos totales diarios
+    CASOS=$(( CASOS + CASO ))  # Variable que guarda la suma de los casos totales diarios para obtener el total del mes
 done
 
 echo "________________________________________________"
