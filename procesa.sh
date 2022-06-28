@@ -42,6 +42,7 @@ for FECHA in $FECHAS
     CASOS=$(( CASOS + CASO ))
 done
 
-echo "Los casos acumulados del mes $1 son $CASOS"
+echo "________________________________________________"
+echo "=> Los casos acumulados del mes $1 son $CASOS <=" # Totales del mes
 
 
