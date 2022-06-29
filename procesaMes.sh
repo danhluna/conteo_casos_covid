@@ -36,8 +36,6 @@ test ! -e $ARCHIVO  && echo "el archivo $ARCHIVO no se encuentra ..." && exit 2
 FECHAS=$(_obtener_fechas $1 $2)
 for FECHA in $FECHAS
     do
-    #echo -n "* Fecha es $FECHA y los casos positivos son: "
-    #_suma_resultado $(_obtiene_campo $FECHA);
     CASO=$(_suma_resultado $(_obtiene_campo $FECHA)); # Variable que guarda el valor de los casos totales diarios
     CASOS=$(( CASOS + CASO ))  # Variable que guarda la suma de los casos totales diarios para obtener el total del mes
 done
